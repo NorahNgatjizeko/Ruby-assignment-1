@@ -4,6 +4,7 @@ class Player
     puts "0:Rock, 1:Paper, 2:Scissors"
        input_hand = gets.to_i
      while true
+       input_hand = gets.chomp
          if input_hand == 0
            return 0
          elsif input_hand == 1
