@@ -11,7 +11,7 @@ class Player
          elsif input_hand == 2
            return 2
          else
-           puts "Please enter another number"
+           puts "Please input a number between 0-2"
            puts "0:Rock, 1:Paper, 2:Scissors"
             input_hand = gets.to_i
       end
